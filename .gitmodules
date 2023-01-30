@@ -1,0 +1,9 @@
+[submodule "ms-computer"]
+	path = ms-computer
+	url = https://github.com/Admiralis/ms-computer.git
+[submodule "ms-loan"]
+	path = ms-loan
+	url = https://github.com/Admiralis/ms-loan.git
+[submodule "ms-course"]
+	path = ms-course
+	url = https://github.com/Admiralis/ms-course.git
