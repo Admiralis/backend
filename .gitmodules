@@ -7,3 +7,9 @@
 [submodule "ms-course"]
 	path = ms-course
 	url = https://github.com/Admiralis/ms-course.git
+[submodule ".\\ms-computer\\"]
+	branch = develop
+[submodule ".\\ms-course\\"]
+	branch = develop
+[submodule ".\\ms-loan\\"]
+	branch = develop
