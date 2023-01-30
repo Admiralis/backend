@@ -1,0 +1,42 @@
+version: "3.8"
+services:
+  course-db:
+    image: mongo
+    restart: unless-stopped
+    container_name: ms-course-db
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mongoadmin
+      MONGO_INITDB_ROOT_PASSWORD: secret
+      MONGO_INITDB_DATABASE: courses
+    volumes:
+      - ms-course-db-data:/data/db
+  computer-db:
+    image: mongo
+    restart: unless-stopped
+    container_name: ms-computer-db
+    ports:
+      - "27018:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mongoadmin
+      MONGO_INITDB_ROOT_PASSWORD: secret
+      MONGO_INITDB_DATABASE: computers
+    volumes:
+      - ms-computer-db-data:/data/db
+  loan-db:
+    image: mongo
+    restart: unless-stopped
+    container_name: ms-loan-db
+    ports:
+      - "27019:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mongoadmin
+      MONGO_INITDB_ROOT_PASSWORD: secret
+      MONGO_INITDB_DATABASE: loans
+    volumes:
+      - ms-loan-db-data:/data/db
+volumes:
+  ms-course-db-data:
+  ms-computer-db-data:
+  ms-loan-db-data:
