@@ -22,6 +22,6 @@ Centralise tous les répositories du backend.
 Voir la documentation de chaque MS dans le MS associé.
 Chaque MS expose sur un port spécifique et a son propre swagger.
 
-- [MS-COMPUTER](backend/ms-computer/README.md) : 8080
-- [MS-COURSE](backend/ms-course/README.md) : 8081
+- [MS-COURSE](backend/ms-course/README.md) : 8080
+- [MS-COMPUTER](backend/ms-computer/README.md) : 8081
 - [MS-LOAN](backend/ms-loan/README.md) : 8082
