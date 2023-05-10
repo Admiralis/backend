@@ -1,13 +1,13 @@
 [submodule "ms-computer"]
 	path = ms-computer
 	url = https://github.com/Admiralis/ms-computer.git
-	branch = develop
+	branch = main
 [submodule "ms-loan"]
 	path = ms-loan
 	url = https://github.com/Admiralis/ms-loan.git
-	branch = develop
+	branch = main
 [submodule "ms-course"]
 	path = ms-course
 	url = https://github.com/Admiralis/ms-course.git
-	branch = develop
+	branch = main
 
